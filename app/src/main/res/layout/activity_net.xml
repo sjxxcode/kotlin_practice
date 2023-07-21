@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".rengwuxian.cls2.NetActivity">
+    tools:context=".coroutines.rengwuxian.cls2.NetActivity">
 
     <Button
         android:id="@+id/btn_test1"

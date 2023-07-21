@@ -1,4 +1,4 @@
-package com.kotlin.practice.coroutines
+package com.kotlin.practice.coroutines.other
 
 import kotlinx.coroutines.*
 

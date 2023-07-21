@@ -4,8 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.kotlin.practice.databinding.ActivityMainBinding
-import com.kotlin.practice.rengwuxian.cls1.C1Activity
-import com.kotlin.practice.rengwuxian.cls2.NetActivity
+import com.kotlin.practice.coroutines.rengwuxian.cls1.C1Activity
+import com.kotlin.practice.coroutines.rengwuxian.cls2.NetActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

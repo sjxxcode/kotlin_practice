@@ -15,14 +15,14 @@
         android:theme="@style/Theme.Kotlin_practice"
         tools:targetApi="31">
         <activity
-            android:name=".rengwuxian.cls2.NetActivity"
+            android:name=".coroutines.rengwuxian.cls2.NetActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".rengwuxian.cls1.C1Activity"
+            android:name=".coroutines.rengwuxian.cls1.C1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

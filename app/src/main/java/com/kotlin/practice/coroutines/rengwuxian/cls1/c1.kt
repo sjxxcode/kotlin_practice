@@ -1,4 +1,4 @@
-package com.kotlin.practice.rengwuxian.cls1
+package com.kotlin.practice.coroutines.rengwuxian.cls1
 
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
