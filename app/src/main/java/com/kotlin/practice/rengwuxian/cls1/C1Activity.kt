@@ -1,4 +1,4 @@
-package com.kotlin.practice.rengwuxian
+package com.kotlin.practice.rengwuxian.cls1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

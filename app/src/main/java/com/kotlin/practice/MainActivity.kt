@@ -3,9 +3,9 @@ package com.kotlin.practice
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.kotlin.practice.databinding.ActivityC1Binding
 import com.kotlin.practice.databinding.ActivityMainBinding
-import com.kotlin.practice.rengwuxian.C1Activity
+import com.kotlin.practice.rengwuxian.cls1.C1Activity
+import com.kotlin.practice.rengwuxian.cls2.NetActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnTest1.setOnClickListener {
             startActivity(Intent(this@MainActivity, C1Activity::class.java))
+        }
+        binding.btnTest2.setOnClickListener {
+            startActivity(Intent(this@MainActivity, NetActivity::class.java))
         }
     }
 }

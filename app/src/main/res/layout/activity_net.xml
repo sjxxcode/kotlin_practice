@@ -4,35 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".rengwuxian.cls1.C1Activity">
+    tools:context=".rengwuxian.cls2.NetActivity">
 
     <Button
         android:id="@+id/btn_test1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="测试1"
+        android:text="retrofit-测试"
 
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btn_test2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="测试2"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_test1" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
-        android:id="@+id/text_test2"
+        android:id="@+id/text_test1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:hint="随机内容"
 
-        app:layout_constraintStart_toEndOf="@+id/btn_test2"
-        app:layout_constraintTop_toTopOf="@+id/btn_test2"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_test2"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_test1"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
